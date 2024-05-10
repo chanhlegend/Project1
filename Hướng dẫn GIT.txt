@@ -1,0 +1,10 @@
+git config --global user.name "ten"
+git config --global user.email "email"
+git config credential.helper store: dang nhap tk
+
+
+git add . : gửi code vào stage area
+git commit -m "coment" : gửi code vào GIT local
+git push -u origin master: đẩy code lên remote
+git init : sử dung 1 lần để tạo ra stage area
+git clone linkcode : pull all code ve folder
